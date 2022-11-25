@@ -1,0 +1,122 @@
+html{
+    overflow-x: hidden;
+}
+/* Utility Class */
+.h-pri {
+    font-size: 3.2rem;
+
+}
+
+.title_underline {
+    height: 3px;
+    width: 200px;
+    margin: -10px 15px 15px 15px;
+}
+
+a {
+    color: #fff;
+
+}
+
+.h-sec {
+    font-size: 1rem;
+
+}
+.btn {
+    width: 150px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Navbar */
+#navbar {
+    width: 100vw;
+flex-direction: column;
+}
+#navbar::before {
+    width: 100vw;
+}
+#navbar #logo {
+    padding-top: 3px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#navbar ul {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+#navbar ul li {
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    padding: 0px 15px;
+
+}
+
+/* Home */
+#home{
+    padding: 3px 0px;
+    width: 100vw;
+    
+}
+
+#home::before {
+    width: 100vw;
+}
+#home h1 {
+font-size: 2rem;
+}
+#home p {
+    font-size: 1rem;
+}
+/* Services */
+.service {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.service .box {
+    padding: 16px;
+    margin: 10px auto;
+    width: 80vw;
+}
+/* Clients */
+#clients {
+    width: 100vw;
+}
+#client .client_item {
+    padding: 10px;
+}
+#client{
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20vh;
+}
+#clients::before {
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+    filter: blur(10px);
+    background: url('../assets/img/bg.jpg') no-repeat center center/cover !important;
+}
+/* Contact Us  */
+#contacts{
+    width: 100vw;
+    margin-top: 30px;
+}
+#contacts .contact_box form {
+    width: 75%;
+}
+
+
+/* Footer  */
+footer .footer_flex{
+   flex-direction: column;
+}
